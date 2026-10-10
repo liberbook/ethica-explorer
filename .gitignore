@@ -1,0 +1,6 @@
+# build output (GitHub Pages builds it; locally: npm run build)
+ethica.html
+data/
+_site/
+node_modules/
+.DS_Store

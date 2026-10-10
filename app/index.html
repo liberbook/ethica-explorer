@@ -1,0 +1,46 @@
+<!doctype html>
+<!-- Ethica Explorer · SPDX-License-Identifier: GPL-3.0-or-later · source: https://github.com/liberbook/ethica-explorer -->
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Этика Спинозы</title>
+<meta name="description" content="Этика Спинозы: текст с раскрываемыми ссылками, цепочки доказательств, статистика и карта зависимостей.">
+<style>/*STYLE*/</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/text/1d1" title="К началу">
+    <span class="brand-mark">E</span>
+    <span class="brand-text"><b>Этика</b><span>доказанная в геометрическом порядке</span></span>
+  </a>
+  <nav class="tabs" role="tablist">
+    <a role="tab" data-tab="text" href="#/text">Текст</a>
+    <a role="tab" data-tab="book" href="#/book">Книга</a>
+    <a role="tab" data-tab="graph" href="#/graph">Связи</a>
+  </nav>
+  <form class="search" id="search" autocomplete="off">
+    <input id="q" type="search" placeholder="Э1т7, E2p13, «субстанция»…" aria-label="Поиск по номеру или словам">
+  </form>
+  <button class="icon-btn" id="theme" type="button" title="Светлая / тёмная тема" aria-label="Сменить тему">◐</button>
+</header>
+
+<main>
+  <section id="view-text" class="view">
+    <aside class="toc" id="toc" aria-label="Оглавление"></aside>
+    <article class="reader" id="reader"></article>
+    <aside class="side" id="side" aria-label="Зависимости"></aside>
+  </section>
+  <section id="view-book" class="view">
+    <aside class="toc" id="book-toc" aria-label="Оглавление части"></aside>
+    <article class="reader" id="book"></article>
+  </section>
+  <section id="view-graph" class="view view-page"><div class="page" id="graph"></div></section>
+  <section id="view-audit" class="view view-page"><div class="page" id="audit"></div></section>
+</main>
+
+<div class="tooltip" id="tip" role="tooltip" hidden></div>
+<script>/*DATA*/</script>
+<script>/*SCRIPT*/</script>
+</body>
+</html>

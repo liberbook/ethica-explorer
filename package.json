@@ -1,0 +1,25 @@
+{
+  "name": "ethica-explorer",
+  "version": "1.0.0",
+  "description": "Spinoza's Ethics as a system of proofs: every cross-reference resolved, full proof chains, statistics and a dependency map. One offline page.",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "check": "node tools/build.js --check",
+    "site": "node tools/build.js --out _site"
+  },
+  "keywords": [
+    "spinoza",
+    "ethics",
+    "ethica",
+    "philosophy",
+    "dependency-graph",
+    "спиноза",
+    "этика"
+  ]
+}
